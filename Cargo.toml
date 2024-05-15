@@ -1,0 +1,18 @@
+[package]
+name = "sharpened_bilinear"
+version = "1.0.0"
+authors = ["orekh"]
+edition = "2018"
+description = "Sharp bilinear image resizing in linear color space with premultiplied alpha."
+license = "MIT"
+repository = "https://github.com/orekhoff/sharpened_bilinear"
+documentation = "https://docs.rs/sharpened_bilinear"
+homepage = "https://github.com/orekhoff/sharpened_bilinear"
+readme = "README.md"
+
+[dependencies]
+image = "0.25.1"
+lexopt = "0.3"
+
+[profile.dev]
+opt-level = 3
